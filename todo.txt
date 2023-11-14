@@ -1,0 +1,3 @@
+add brotli and tar binaries for both
+create Linux Decompress script
+create compress script for both
