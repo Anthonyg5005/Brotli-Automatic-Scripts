@@ -6,7 +6,7 @@ I made the original for Windows a while ago while sending [Brotli](https://githu
 
 ## Why use Brotli
 
-I chose this compression format for it's fast decompression and good compression ratio. These decompression scripts make it easier for anyone who doesn't have 7zip installed and uses less bandwidth than zip for it's better compression. Compression ratio is close to 7zip.
+I chose this compression format for it's fast decompression and good compression ratio. These decompression scripts make it easier for anyone who doesn't have 7zip installed and uses less bandwidth than zip for it's better compression. Compression ratio for Brotli is close to 7zip.
 
 ## Downsides of Brotli
 
