@@ -1,3 +1,4 @@
+
 Remember to enable execution permissions with 'chmod +x Decompress.sh'
 
 If using a desktop environment you can also right click Decompress.sh > properties > executable
@@ -7,3 +8,4 @@ If using a desktop environment you can also right click Decompress.sh > properti
 Then you may run './Decompress.sh'
 
 On desktop environment, double click file
+
