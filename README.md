@@ -11,3 +11,7 @@ I chose this compression format for it's fast decompression and good compression
 ## Downsides of Brotli
 
 Brotli compression is **very** slow. Depending on the size of the folder, it may take hours for many GBs of data. This is why I usually use my phone to compress Tar archives to Brotli with tools like Termius to copy using SFTP and Termux for the terminal.
+
+## Supported platforms
+
+I've only built Brotli for **Windows x86_64**, **Linux x86_64**, and **Linux aarch64**. The scripts should work if you compile Brotli for your platform and have Tar installed. You may need to edit the script though. *Windows 11, and most Linux distros, have Tar preinstalled*
