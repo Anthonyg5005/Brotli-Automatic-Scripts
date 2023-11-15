@@ -10,5 +10,10 @@ echo "Step one: Decompressing $BrotliFile to Tar archive"
 
 ./brotli -d $BrotliFile -o $TarFile
 
-echo "Step two: Extracting files from $TarFile to a directory
+echo "Step two: Extracting files from $TarFile to a directory"
+
+mkdir $FileName
+tar -xf $TarFile -C $FileName
+
+echo "Step three: deleting extra files"
 
