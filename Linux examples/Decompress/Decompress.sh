@@ -17,3 +17,9 @@ tar -xf $TarFile -C $FileName
 
 echo "Step three: deleting extra files"
 
+rm $BrotliFile
+rm $TarFile
+rm brotli
+
+#todo: use dpkg --print-architecture to choose correct file
+
