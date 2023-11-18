@@ -17,6 +17,6 @@ echo Step two: Compress the Tar archive into a Brotli file
 
 brotli -Zo %BrotliFile% %TarFile%
 
-echo Step three: Removing %TarFile%
+echo Step three: Removing %TarFile% if exists
 
 del %TarFile%
