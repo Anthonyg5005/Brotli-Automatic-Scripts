@@ -4,7 +4,7 @@ This is something I decided to make on my phone during class because it *could* 
 
 I made the original for Windows a while ago while sending [Brotli](https://github.com/google/brotli) archives to friends to help them easily decompress them. I changed it to be much more easily configured to any file.
 
-The way this is setup is to keep all files until the decompression is done. This means you should have at least ×3 of the original file size available on your drive. I'll make it more storage optimized which could bring it down to about ×1.75 of the original file size but still recommend ×2.
+The way this is set up is to keep all files until the decompression is done. This means you should have at least ×3 of the original file size available on your drive. I'll make it more storage optimized which could bring it down to about ×1.75 of the original file size but still recommend ×2.
 
 ## Why use Brotli
 
