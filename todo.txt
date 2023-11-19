@@ -1,3 +1,0 @@
-create both for systems with brotli and tar already installed
-create Linux Decompress script
-create compress script for both
