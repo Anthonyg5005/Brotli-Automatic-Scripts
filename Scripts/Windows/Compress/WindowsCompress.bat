@@ -23,4 +23,4 @@ del %TarFile%
 
 REM Optional, just lets user know when compression is done
 echo Playing Windows tada sound
-C:\Windows\Media
+powershell -c (New-Object Media.SoundPlayer "C:\Windows\Media\tada.wav").PlaySync();
