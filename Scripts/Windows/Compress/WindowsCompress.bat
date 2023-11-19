@@ -13,10 +13,14 @@ echo Step one: Archive the folder into a Tar
 
 tar -cf %TarFile% %Folder%
 
-echo Step two: Compress the Tar archive into a Brotli file
+echo Step two: Compress the Tar archive into a Brotli file (Can take a few hours)
 
 brotli -Zo %BrotliFile% %TarFile%
 
 echo Step three: Removing %TarFile% if exists
 
 del %TarFile%
+
+REM Optional, just lets user know when compression is done
+echo Playing Windows tada sound
+C:\Windows\Media
