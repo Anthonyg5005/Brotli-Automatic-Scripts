@@ -12,7 +12,7 @@ I chose this compression format for it's fast decompression and good compression
 
 ## Downsides of Brotli
 
-Brotli compression is **very** slow. Depending on the size of the folder, it may take hours for more folders with than a few MBs of data.
+Brotli compression is **very** slow. It may take hours for folders with more than a few MBs of data.
 
 ## Supported platforms
 
