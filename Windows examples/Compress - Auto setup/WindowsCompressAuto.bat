@@ -3,7 +3,7 @@
 setlocal
 
 REM Prompt user for the name of the folder
-set /p "Folder=Folder name: "
+set Folder=Example Folder
 
 REM Setup variables
 set TarFile="%Folder%.tar"

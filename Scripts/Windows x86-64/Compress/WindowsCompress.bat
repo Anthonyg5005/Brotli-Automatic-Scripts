@@ -7,11 +7,11 @@ set /p "Folder=Folder name: "
 
 REM Setup variables
 set TarFile="%Folder%.tar"
-set BrotliFile="%TarFile%.br"
+set BrotliFile="%Folder%.tar.br"
 
 echo Step one: Archive the folder into a Tar
 
-tar -cf %TarFile% %Folder%
+tar -cf %TarFile% "%Folder%"
 
 echo Step two: Compress the Tar archive into a Brotli file (Can take a few hours)
 
