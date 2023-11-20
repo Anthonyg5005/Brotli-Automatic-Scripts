@@ -16,7 +16,7 @@ Brotli compression is **very** slow. It may take hours for folders with more tha
 
 ## Supported platforms
 
-I've only built Brotli for **Windows x86_64** (now replaced with *[offical precompiled binary](https://github.com/google/brotli/releases/tag/v1.1.0))*, **Linux x86_64**, and **Linux aarch64**. The scripts should work if you compile Brotli for your platform and have Tar installed. *Windows 11, Windows 10 build 17063 or later, and Linux have Tar preinstalled*
+I've only built Brotli for **Windows x86_64** (now replaced with *[offical precompiled binary](https://github.com/google/brotli/releases/tag/v1.1.0))*, **Linux x86_64**, and **Linux aarch64**. For an unsupported platform, the scripts should work if you compile Brotli for your platform and have Tar installed. *Windows 11, Windows 10 build 17063 or later, and Linux have Tar preinstalled*
 
 ***Haven't tested included tar.exe on a computer without it preinstalled***
 
