@@ -9,3 +9,7 @@ Then you may run './Decompress.sh'
 
 On desktop environment, double click file
 
+-----
+
+Example was only made for 64-Bit Linux
+

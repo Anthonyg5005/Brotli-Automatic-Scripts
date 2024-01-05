@@ -1,7 +1,3 @@
-#Set the name of the Brotli file here
-#Use \ to define spaces in the name
-#Example: 'My website backup' would be 'My\ website\ backup'
-#Do not add the .tar.br extension
 export FileName=Example\ Folder
 
 export BrotliFile=$FileName.tar.br
@@ -35,3 +31,4 @@ rm brotli
 rm brotli-aarch64
 
 echo "Files are now decompressed and extracted to $FileName"
+read -n1 -r -p "Press any key to continue..."
